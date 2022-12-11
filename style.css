@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+header {
+    height: 100px;
+}
+nav {
+    height: 100px; 
+    /* background-color: rebeccapurple; */
+    float: right;
+}
+ul li {
+    list-style: none;
+    float: left;
+    line-height: 100px;
+    margin-left: 50px;
+}
+ul li a {
+    width: 57px;
+    height: 43px;
+    text-decoration: none;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    color: #000000;
+}
+.developer-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+.developer {
+    width: 50%;
+}
+.developer-info h1 {
+    font-family: Heebo;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+}
+.developer-info p {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    margin-top: 10px;
+}
+.developer-info button {
+    border: none;
+    outline: none;
+    padding: 15px 40px;
+    background: #FF6464;
+    border-radius: 2px;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.recent-all {
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.devInfo {
+    background: #EDF7FA;
+    padding: 30px 0px;
+    margin-top: 70px;
+}
+.recent-all h3 {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 60px;
+    display: flex;
+    align-items: flex-end;
+    color: #21243D;
+}
+.recent-all a {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 55px;
+    text-align: right;
+    color: #00A8CC;
+}
+.makedesign {
+    display: flex;
+    justify-content: space-around;
+    /* padding-top: 25px; */
+}
+.make {
+    /* margin-left: 8%;
+    margin-right: 8%; */
+    width: 30%;
+    height: auto;
+}
+.design {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    padding: 30px;
+}
+.pixel {
+    margin-top: 20px;
+}
+.design h3 {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+}
+p.feb {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    padding: 20px 0;
+}
+p.dfeb {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+}
+.featured {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 50px;
+}
+.featured h3{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 60px;
+}
+.desiging {
+    display: flex;
+    justify-content: space-between;
+}
+.desiging img {
+    width: 30%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.design-info {
+    width: 65%;
+}
+.design-info h3 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+}
+.dash {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+.twe {
+    padding: 11px 0;
+}
+footer {
+    background-color: #EDF7FA;
+    height: 150px;
+    margin-top: 50px;
+}
+.social-links {
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    line-height: 100px;
+}
+.social-links a {
+    margin-left: 40px;
+    text-decoration: none;
+}
+.social-links a i {
+    color: #21243D;
+}
+.copy {
+    text-align: center;
+    font-size: 14px;
+}
+.menu svg {
+    margin-top: 30px;
+    float: right;
+    width: 40px;
+    height: 50px;
+    display: none;
+}
+footer svg {
+    width: 20px !important;
+    /* transition: 1s; */
+}
+footer svg:hover {
+    transform: scale(1.1);
+    fill: #FF6464;
+}
